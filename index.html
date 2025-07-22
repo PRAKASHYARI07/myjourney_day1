@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first webpage </title>
     <link rel="stylesheet" href="style.css" >
+    
 </head>
 <body>
+    <a href="about.html">About Me</a>
+
     <h1>Hello, I’m Prakash Yari 👋</h1>
     <p>This is my first project in my web development journey.</p>
     <ul>
@@ -25,8 +28,13 @@
     </section>
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>If you want to connect with me, you can find me on:</p>
-        <ul>
-            <li><a href="   
+        <form action="https://formspree.io/f/your-code" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="_replyto" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
 </body>
 </html>
