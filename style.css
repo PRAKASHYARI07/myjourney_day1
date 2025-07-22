@@ -11,3 +11,31 @@ h1 {
   text-align: center;
   margin-top: 50px;
 }
+
+
+#projects {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
